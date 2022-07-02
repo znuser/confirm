@@ -1,0 +1,8 @@
+{
+  "incorrect_login_or_code": "Кіру немесе растау коды жарамсыз",
+  "already_sended_code {phone}": "Нөмірге растау коды жіберілді: {phone}",
+  "confirmation_code {code}": "Растау коды: {code}",
+  "incorrect_code": "Растау коды жарамсыз",
+  "not_be_activated": "Сұрау белсендірілмеген",
+  "not_found": "Белсендіру кодының сұрауы табылмады, 1-қадамды аяқтаңыз"
+}
