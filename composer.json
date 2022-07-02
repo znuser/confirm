@@ -1,0 +1,21 @@
+{
+  "name": "znuser/confirm",
+  "type": "extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ZnDeveloper",
+      "email": "zndev@ya.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    
+  },
+  "autoload": {
+    "psr-4": {
+      "ZnUser\\Confirm\\": "src",
+      "ZnUser\\Confirm\\Tests\\": "tests"
+    }
+  }
+}
