@@ -5,7 +5,7 @@ namespace ZnUser\Confirm\Domain\Repositories\Eloquent;
 use ZnCore\Domain\Query\Entities\Where;
 use ZnCore\Domain\Query\Enums\OperatorEnum;
 use ZnCore\Domain\Query\Entities\Query;
-use ZnCore\Domain\Entity\Exceptions\NotFoundException;
+use ZnCore\Entity\Exceptions\NotFoundException;
 use ZnDatabase\Eloquent\Domain\Base\BaseEloquentCrudRepository;
 use ZnUser\Confirm\Domain\Entities\ConfirmEntity;
 use ZnUser\Confirm\Domain\Interfaces\Repositories\ConfirmRepositoryInterface;

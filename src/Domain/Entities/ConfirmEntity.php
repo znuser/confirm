@@ -3,10 +3,10 @@
 namespace ZnUser\Confirm\Domain\Entities;
 
 use Symfony\Component\Validator\Mapping\ClassMetadata;
-use ZnCore\Domain\Entity\Interfaces\EntityIdInterface;
+use ZnCore\Entity\Interfaces\EntityIdInterface;
 use Symfony\Component\Validator\Constraints as Assert;
-use ZnCore\Domain\Entity\Interfaces\UniqueInterface;
-use ZnCore\Base\Validation\Interfaces\ValidationByMetadataInterface;
+use ZnCore\Entity\Interfaces\UniqueInterface;
+use ZnCore\Validation\Interfaces\ValidationByMetadataInterface;
 use DateTime;
 
 class ConfirmEntity implements ValidationByMetadataInterface, EntityIdInterface, UniqueInterface
