@@ -9,7 +9,7 @@ use ZnUser\Confirm\Domain\Interfaces\Repositories\ConfirmRepositoryInterface;
 use ZnUser\Confirm\Domain\Interfaces\Services\ConfirmServiceInterface;
 use ZnCore\Entity\Exceptions\AlreadyExistsException;
 use ZnCore\Entity\Exceptions\NotFoundException;
-use ZnLib\Components\I18Next\Facades\I18Next;
+use ZnLib\I18Next\Facades\I18Next;
 use ZnCore\Service\Base\BaseCrudService;
 use ZnCore\Query\Entities\Where;
 use ZnCore\EntityManager\Interfaces\EntityManagerInterface;
