@@ -4,7 +4,7 @@ namespace ZnUser\Confirm\Domain\Interfaces\Services;
 
 use ZnUser\Confirm\Domain\Entities\ConfirmEntity;
 use ZnCore\Entity\Exceptions\AlreadyExistsException;
-use ZnCore\Service\Interfaces\CrudServiceInterface;
+use ZnDomain\Service\Interfaces\CrudServiceInterface;
 
 interface ConfirmServiceInterface extends CrudServiceInterface
 {
