@@ -7,13 +7,13 @@ use ZnBundle\Notify\Domain\Interfaces\Services\SmsServiceInterface;
 use ZnUser\Confirm\Domain\Entities\ConfirmEntity;
 use ZnUser\Confirm\Domain\Interfaces\Repositories\ConfirmRepositoryInterface;
 use ZnUser\Confirm\Domain\Interfaces\Services\ConfirmServiceInterface;
-use ZnCore\Entity\Exceptions\AlreadyExistsException;
-use ZnCore\Entity\Exceptions\NotFoundException;
+use ZnDomain\Entity\Exceptions\AlreadyExistsException;
+use ZnDomain\Entity\Exceptions\NotFoundException;
 use ZnLib\I18Next\Facades\I18Next;
 use ZnDomain\Service\Base\BaseCrudService;
-use ZnCore\Query\Entities\Where;
+use ZnDomain\Query\Entities\Where;
 use ZnDomain\EntityManager\Interfaces\EntityManagerInterface;
-use ZnCore\Query\Entities\Query;
+use ZnDomain\Query\Entities\Query;
 
 /**
  * @method ConfirmRepositoryInterface getRepository
